@@ -1,6 +1,6 @@
 package ru.netology.pva;
 
-public class Post_sourceInfo {
+public class PostSourceInfo {
     private String type;
     private String platform;
     private String data;

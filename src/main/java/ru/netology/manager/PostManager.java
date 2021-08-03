@@ -1,31 +1,21 @@
 package ru.netology.manager;
-
 public class PostManager {
-    private PostManager postManager;
 
+    public <Post> Post[] search(
+            int onerId,
+            String domain,
+            String query,
+            boolean ownersOnly,
+            int count,
+            int offset,
+            boolean extended,
+            String fields) {
 
-    public String getPostManager(){
-        PostManager[] posts = postManager.getPostManager();
-        //
         return null;
     }
 
 
-    private PostManager getWallSearch;
-        public String genWallSearch( ){
-        PostManager[] postManagers = postManager.getWallSearch;
+    public void delete(int owenerId, int postId) {
 
-        return null;
-        }
-
-
-
-    private PostManager getWallDelete;
-        public String genWallSearch( ) {
-        PostManager[] postManagers = postManager.getWallDelete;
-
-        return null;
-        }
+    }
 }
-
-
